@@ -8,6 +8,14 @@ Note: you should only need to use flexbox properties and margin/padding to creat
     gap: 10px;
 }
 
+header {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
 /* 
 Challenge: Use flexbox in media queries to create a responsive layout 
 */
