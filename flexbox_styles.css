@@ -9,6 +9,7 @@ Note: you should only need to use flexbox properties and margin/padding to creat
 }
 
 header {
+    width: 100%;
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
