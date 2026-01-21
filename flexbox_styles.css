@@ -17,7 +17,8 @@ header {
 
 .card-container {
   display: flex;
-  gap: 10px;
+  gap: 25px;
+  margin-bottom: 5px;
 }
 .card {
   display: flex;
@@ -32,22 +33,34 @@ header {
 }
 .features {
   display: flex;
+  justify-content: space-evenly;
   text-align: center;
+  padding: 40px 20px;
+  gap: 40px;
 }
 .feature-item {
   flex-wrap: wrap;
   align-items: center;
 }
+
 .footer-content {
   display: flex;
   text-align: left;
   flex: 1 1 0;
+  gap: 20px;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
 }
 .footer-section {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   flex: 1;
+  gap: 5px;
+  padding-bottom: 30px;
 }
 
 /* 
