@@ -13,6 +13,8 @@ header {
     padding: 10px 20px;
 
 }
+
+
 .nav-link{
     justify-content:space-between;
     margin: 0 15px;
@@ -21,10 +23,17 @@ header {
 .card-container {
     display: flex;
     gap: 10px;
-    justify-content: center;
-    align-items: center;
-}
 
+}
+.card{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.card img{
+    display:flex;
+    padding-left:100px;
+}
 /* 
 Challenge: Use flexbox in media queries to create a responsive layout 
 */
