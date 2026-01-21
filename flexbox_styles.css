@@ -3,58 +3,53 @@ TODO: Add styles to match the layout in the image.
 Note: you should only need to use flexbox properties and margin/padding to create the layout.
 */
 
-
-
 header {
-    width: 100%;
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
 }
-.nav-link{
-    justify-content:space-between;
-    margin: 0 15px;
+.nav-link {
+  justify-content: space-between;
+  margin: 0 15px;
 }
 
 .card-container {
-    display: flex;
-    gap: 10px;
-
+  display: flex;
+  gap: 10px;
 }
-.card{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 /* need help with the img being centered */
-.card img{
-    display:flex;
-    padding-left: 3rem;
+.card img {
+  display: block;
+  padding-left: 0;
 }
-.features{
-    display: flex;
-    text-align:center;
+.features {
+  display: flex;
+  text-align: center;
 }
-.feature-item{
-    flex-wrap: wrap;
-    align-items: center;
+.feature-item {
+  flex-wrap: wrap;
+  align-items: center;
 }
-.footer-content{
-    display: flex;
-    text-align: left;
-    flex: 1 1 0;
+.footer-content {
+  display: flex;
+  text-align: left;
+  flex: 1 1 0;
 }
-.footer-section{
-    display: flex;
-    flex-direction:column; 
-    flex-wrap: wrap; 
-    flex: 1;
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1;
 }
 
 /* 
 Challenge: Use flexbox in media queries to create a responsive layout 
 */
-
-
